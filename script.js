@@ -20,11 +20,11 @@ if (getParameterByName('code') != null) {
 
 function toggleByBtn() {
     if (getParameterByName('code') === null) {
-        if (document.querySelector('#input').value === '') {
+        if (document.querySelector('#input').value.trim() === '') {
             alert('請輸入需歸戶的序號');
             return
         }
-        let code = document.querySelector('#input').value;
+        let code = document.querySelector('#input').value.trim();
         window.location.replace(
             `foodpanda://?c=TW&s=o&code=${code}`,
         );
