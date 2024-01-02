@@ -1,0 +1,63 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background: #e21b70;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 18px;
+    color: #e21b70;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.content{
+    color: #fff;
+    text-align: center;
+}
+
+
+.showCode{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.showCode input{
+    margin: 0 10px;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+button{
+    background-color: #fff;
+    color: #e21b70;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.footer p{
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    margin: 0;
+    padding: 20px 0;
+}
