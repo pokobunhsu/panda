@@ -20,15 +20,33 @@
         </div>
         <div class="content">
             <div class="showCode">
-                <span>要歸戶的序號:</span> <input type="text" id="input" placeholder="請輸入序號" disabled>
+                <input type="text" id="input" placeholder="請輸入序號" disabled>
             </div>
-            <button onclick="toggleByBtn()">沒有跳轉嗎?點我試試看</button>
+            <button onclick="toggleByBtn()" class="go_btn">沒有跳轉嗎? 點我試試看</button>
+            <div class="info">
+                <h3>使用說明（共兩種使用方式）</h3>
+                <h4>用法 1</h4>
+                <ol>
+                    <li>上方輸入框輸入序號</li>
+                    <li>按下「點我歸戶」按鈕</li>
+                    <li>完成</li>
+                </ol>
+                <h4>用法 2</h4>
+                <button class="share" onclick="getShareLink()">分享連結</button>
+                <ol>
+                    <li>上方輸入框輸入序號</li>
+                    <li>點選上方「分享連結」按鈕</li>
+                    <li>分享連結給朋友</li>
+                    <li>完成</li>
+                </ol>
+                <b>備註：?code= 後方的序號改為你要分享的</b>
+            </div>
         </div>
         <div class="footer">
             <p>create by poko V24.0103</p>
         </div>
     </div>
-    <script src="script.js"></script>
+    <script src="script.js?t=202401031131"></script>
 </body>
 
 </html>
