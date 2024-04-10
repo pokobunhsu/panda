@@ -65,7 +65,6 @@ function checkDevice(onlyCallback = false) {
     }
 }
 
-
 function getShareLink(){
     let shareLink = "https://pokotw.dev/panda";
     let code = document.querySelector('#input').value.trim();
