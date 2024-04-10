@@ -58,6 +58,11 @@ button{
     font-weight: bold;
 }
 
+button:hover{
+    background-color: #f8c1d9;
+    color: #000000;
+}
+
 
 .footer p{
     text-align: center;
@@ -65,4 +70,14 @@ button{
     font-size: 14px;
     margin: 0;
     padding: 20px 0;
+}
+
+.footer a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover{
+    color: #000000;
 }
